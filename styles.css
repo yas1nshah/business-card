@@ -1,0 +1,35 @@
+﻿body
+{
+	font-family: Verdana, Ganeva, Tahoma;
+	margin:30px;
+
+}
+.dp{
+	width:150px;
+	border-radius:100px;
+}
+
+.card{
+	width:400px;
+	padding:20px;
+	display:flex;
+	justify-content:space-around;
+	margin: 100px auto;
+	text-align:center;
+
+	text-color:#2b2839;
+	background:#ddebf8;
+	border-bottom:8px solid #d8cefe;
+
+	cursor:not-allowed;
+	border-radius:26px;
+
+
+}
+.card:hover{
+	transform: scale(1.54);
+}
+
+.dotted{
+	border: 1px dotted blue;
+}
